@@ -12,7 +12,7 @@ import ItemDetails from './pages/ItemDetails';
 const App = () => {
     return (
         <Router>
-           
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
